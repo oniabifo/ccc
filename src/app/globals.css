@@ -17,13 +17,57 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+  #navbarLogo {
+    @apply text-white;
+  }
+
+  .sticky #navbarLogo {
+    @apply text-black;
+  }
+
+  .sticky .navbar-logo:hover {
+    @apply text-primary opacity-100;
+  }
+
+.sticky #navbarCollapse li > a{
+  color: theme('colors.btn_text');
+}
+
+.sticky #navbarCollapse li > a:hover{
+  color: theme('colors.primary');
+  opacity: 1;
+}
+
+:is(.dark .sticky #navbarCollapse li > a){
+  color: theme('colors.btn_text');
+}
+
+:is(.dark .sticky #navbarCollapse li > a:hover){
+  color:theme('colors.primary');
+}
+
+.sticky .signUpBtn {
+  background-color: theme('colors.primary');
+  color: white;
+}
+
+.sticky .signUpBtn:hover {
+  background-color: theme('colors.secondary');
+  color: white;
+}
+
+.sticky #navbarCollapse li .ud-menu-scroll.active{
+  color: theme('colors.secondary');
+  opacity: 1;
 }
 
 @layer utilities {
