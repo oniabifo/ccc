@@ -1391,7 +1391,7 @@ export default function Home() {
                   Multipurpose Template
                 </h4>
                 <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                  Lorem Ipsum is simply dummy text of the printing and industry.
+                  Lorem Ipsum is simply dumtest 123 nting and industry.
                 </p>
                 <a
                   href=""
@@ -2247,7 +2247,7 @@ export default function Home() {
                     Is Our Company Certifed ?
                   </h3>
                   <p className="text-base text-body-color dark:text-dark-6">
-                    Loremolor sit amet, contur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Loremolor sit amet, Test elit, sed do eiusmodGoing homunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
               </div>
