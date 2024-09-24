@@ -35,7 +35,8 @@ const ContactForm: React.FC = () => {
 
         setIsSubmitting(true);
         try {
-            const token = await executeRecaptcha('contact_form');
+            const token = await executeRecaptcha('submit_form');
+
             const response = await fetch('/api/send-email', {
                 method: 'POST',
                 headers: {
@@ -44,14 +45,18 @@ const ContactForm: React.FC = () => {
                 body: JSON.stringify({ ...formData, recaptchaToken: token }),
             });
 
+            const data = await response.json();
+
             if (response.ok) {
                 setSubmitStatus('success');
                 setFormData({ fullName: '', email: '', phone: '', message: '' });
             } else {
                 setSubmitStatus('error');
+                console.error('Form submission failed:', data.message);
             }
         } catch (error) {
             console.error('Error submitting form:', error);
+
             setSubmitStatus('error');
         } finally {
             setIsSubmitting(false);
