@@ -35,15 +35,15 @@
     }
 
     // show or hide the back-top-top button
-    const backToTop = document.querySelector(".back-to-top");
-    if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
-    ) {
-      backToTop.style.display = "flex";
-    } else {
-      backToTop.style.display = "none";
-    }
+    // const backToTop = document.querySelector(".back-to-top");
+    // if (
+    //   document.body.scrollTop > 50 ||
+    //   document.documentElement.scrollTop > 50
+    // ) {
+    //   backToTop.style?.display = "flex";
+    // } else {
+    //   backToTop.style?.display = "none";
+    // }
   };
 
   // ===== responsive navbar
@@ -114,8 +114,8 @@
     return (-c / 2) * (t * (t - 2) - 1) + b;
   };
 
-  document.querySelector(".back-to-top").onclick = () => {
-    scrollTo(document.documentElement);
-  };
+  // document.querySelector(".back-to-top").onclick = () => {
+  //   scrollTo(document.documentElement);
+  // };
 
 })();

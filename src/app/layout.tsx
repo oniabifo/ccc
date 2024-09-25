@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 import "./globals.css";
 import Script from "next/script";
+import ReCaptchaProvider from "./components/recaptcha";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+
       <head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -31,13 +34,17 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/tailwind.css" />
       </head>
       <body className={inter.className}>
-        {children}
+        <ReCaptchaProvider>
+          {children}
+        </ReCaptchaProvider>
 
         <Script src="/assets/js/wow.min.js" />
         <Script src="/assets/js/swiper-bundle.min.js" />
         <Script src="/assets/js/main.js" />
 
       </body>
+
     </html>
+
   );
 }

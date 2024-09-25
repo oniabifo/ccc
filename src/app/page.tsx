@@ -1,117 +1,21 @@
+// import ContactForm from "./components/contact-us";
 import Image from "next/image";
-import { Fragment } from "react";
+import ContactForm from "./components/contact-us";
+import Header from "./components/header";
 
 export default function Home() {
+
+
+
   return (
     <main>
-      <div
-        className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent"
-      >
-        <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4">
-              <a href="/" className="navbar-logo block w-full py-5 font-black text-2xl"
-                id="navbarLogo">
-                LOGO
-                {/* <img
-                  src="assets/images/logo/logo-white.svg"
-                  alt="logo"
-                  className="header-logo w-full"
-                /> */}
-              </a>
-            </div>
-            <div className="flex w-full items-center justify-between px-4">
-              <div>
-                <button
-                  id="navbarToggler"
-                  className="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
-                >
-                  <span
-                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                  ></span>
-                  <span
-                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                  ></span>
-                  <span
-                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                  ></span>
-                </button>
-                <nav
-                  id="navbarCollapse"
-                  className="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
-                >
-                  <ul className="blcok lg:flex 2xl:ml-20">
-                    <li className="group relative">
-                      <a
-                        href="#home"
-                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-red-500 dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
-                      >
-                        Home
-                      </a>
-                    </li>
-                    <li className="group relative">
-                      <a
-                        href="#about"
-                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                      >
-                        About
-                      </a>
-                    </li>
-                    <li className="group relative">
-                      <a
-                        href="#pricing"
-                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                      >
-                        Our Pricing
-                      </a>
-                    </li>
-                    <li className="group relative">
-                      <a
-                        href="#team"
-                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                      >
-                        Team
-                      </a>
-                    </li>
-                    <li className="group relative">
-                      <a
-                        href="#contact"
-                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                      >
-                        Contact
-                      </a>
-                    </li>
-                    <li className="group relative">
-                      <a
-                        href="#"
-                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                      >
-                        Blog
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <div className="hidden sm:flex">
-                  <a
-                    href="#"
-                    className="signUpBtn rounded-md bg-primary bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
-                  >
-                    Request a demo
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header />
 
       <div
         id="home"
         className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
       >
-        <div className="container">
+        <div className="container wow fadeInUp" data-wow-delay=".2s">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4">
               <div
@@ -1353,7 +1257,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                  Free and Open-Source
+                  Big data services
                 </h4>
                 <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
                   Lorem Ipsum is simply dummy text of the printing and industry.
@@ -1538,20 +1442,20 @@ export default function Home() {
                     className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6"
                   >
                     At Cloud Citadel Consulting, we provide a comprehensive range
-                    of cloud infrastructure services designed to help businesses 
-                    leverage the full potential of the cloud. With expertise in 
+                    of cloud infrastructure services designed to help businesses
+                    leverage the full potential of the cloud. With expertise in
                     Cloud Infrastructure, Devops and Cybersecurity.
                     <br />
                     <br />
-                    Our services include cloud migration, infrastructure automation, 
-                    and multi-cloud solutions, with a focus on scalability, security, 
-                    and cost-efficiency. We partner with leading cloud platforms and 
-                    employ best practices to deliver customized solutions tailored 
+                    Our services include cloud migration, infrastructure automation,
+                    and multi-cloud solutions, with a focus on scalability, security,
+                    and cost-efficiency. We partner with leading cloud platforms and
+                    employ best practices to deliver customized solutions tailored
                     to meet the unique needs of each client.
 
 
-                    
-                    
+
+
                   </p>
 
                   <a
@@ -1742,8 +1646,10 @@ export default function Home() {
                   <p
                     className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white"
                   >
-                    There are many variations of passages of Lorem Ipsum but the
-                    majority have suffered in some form.
+                    With countless options available, we understand the importance 
+                    of finding the right solution. Whether you have a specific need or are exploring 
+                    possibilities, we're here to help. Reach out today to get personalized 
+                    assistance from our team. Let’s work together to achieve your goals
                   </p>
                   <a
                     href=""
@@ -1823,175 +1729,125 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        id="pricing"
-        className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
-      >
+
+
+      {/* Consulting Services */}
+
+      <section className="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container mx-auto">
-          <div className="-mx-4 flex flex-wrap">
+          <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4">
-              <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <span className="mb-2 block text-lg font-semibold text-primary">
-                  Pricing Table
-                </span>
+              <div className="mx-auto mb-[60px] max-w-[485px] text-center">
+
                 <h2
-                  className="mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]"
+                  className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]"
                 >
-                  Consulting Services 
+                  Consulting Services
                 </h2>
                 <p className="text-base text-body-color dark:text-dark-6">
-                Cloud Citadel Consulting offers a wide range of services 
-                cluding cloud migration, infrastructure automation, and multi-cloud management, 
-                ensuring seamless and secure cloud operations.
+                  Cloud Citadel Consulting offers a wide range of services
+                  clouding cloud migration, infrastructure automation, and multi-cloud management,
+                  ensuring seamless and secure cloud operations.
                 </p>
               </div>
             </div>
           </div>
-          <div className="-mx-4 flex flex-wrap justify-center">
+          <div className="flex flex-wrap">
+
+            {/* Item 1 */}
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div
-                className="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
-              >
-                <span
-                  className="mb-5 block text-xl font-medium text-dark dark:text-white"
-                >
-                  Infrastructure Automation and Management
-                </span>
-                <h2
-                  className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]"
-                >
-                  <span className="text-xl font-medium">$</span>
-                  <span className="-tracking-[2px]">25.00</span>
-                  <span
-                    className="text-base font-normal text-body-color ml-2"
-                  >
-                    Per Month
-                  </span>
-                </h2>
-                <div className="mb-[50px]">
-                  <h5 className="mb-5 text-lg font-medium text-dark dark:text-white">
-                    Features
-                  </h5>
-                  <div className="flex flex-col gap-[14px]">
-                    <p className="text-base text-body-color">
-                      Up to 1 Server
-                    </p>
-                    <p className="text-base text-body-color">
-                      Monthly Backup
-                    </p>
-                    <p className="text-base text-body-color">
-                      12-month pro access
-                    </p>
-                    <p className="text-base text-body-color">
-                      Free Support
-                    </p>
-                  </div>
+              <div className="wow fadeInUp group pb-10 border shadow-md p-5 h-[520px]" data-wow-delay=".1s">
+                <div className="mb-8 overflow-hidden rounded-[5px]">
+                  <a href="#" className="block">
+                    <img
+                      src="./assets/images/blog/blog-01.jpg"
+                      alt="image"
+                      className="w-full transition group-hover:rotate-6 group-hover:scale-125"
+                    />
+                  </a>
                 </div>
-                <a
-                  href="#contact"
-                  className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-secondary"
-                >
-                  Contact us
-                </a>
+                <div>
+
+                  <h4>
+                    <a
+                      href=""
+                      className="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-lg xl:text-xl"
+                    >
+                      Cloud infrastructure Architecture and Consulting
+                    </a>
+                  </h4>
+                  <p
+                    className="max-w-[370px] text-base text-body-color text-center"
+                  >
+                    Our Cloud consulting services are centered around understanding your business cases, and helping you design the most fitting and modern infrastructure
+                    for your applications that run in our supported cloud platform
+                  </p>
+                </div>
               </div>
             </div>
+
+
+            {/* item 2 */}
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div
-                className="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
-              >
-                <p
-                  className="absolute right-[-50px] top-[60px] inline-block -rotate-90 rounded-bl-md rounded-tl-md bg-primary px-5 py-2 text-base font-medium text-white"
-                >
-                  Recommended
-                </p>
-                <span
-                  className="mb-5 block text-xl font-medium text-dark dark:text-white"
-                >
-                  Basic
-                </span>
-                <h2
-                  className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]"
-                >
-                  <span className="text-xl font-medium">$</span>
-                  <span className="">59.00</span>
-                  <span
-                    className="text-base font-normal text-body-color ml-2"
-                  >
-                    Per Month
-                  </span>
-                </h2>
-                <div className="mb-[50px]">
-                  <h5 className="mb-5 text-lg font-medium text-dark">
-                    Features
-                  </h5>
-                  <div className="flex flex-col gap-[14px]">
-                    <p className="text-base text-body-color">
-                      Up to 3 Server
-                    </p>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      Weekly Backup
-                    </p>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      Lifetime access
-                    </p>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      Free Support
-                    </p>
-                  </div>
+              <div className="wow fadeInUp group pb-10 border shadow-md p-5 h-[520px]" data-wow-delay=".1s">
+                <div className="mb-8 overflow-hidden rounded-[5px]">
+                  <a href="#" className="block">
+                    <img
+                      src="./assets/images/blog/blog-02.jpg"
+                      alt="image"
+                      className="w-full transition group-hover:rotate-6 group-hover:scale-125"
+                    />
+                  </a>
                 </div>
-                <a
-                  href="#contact"
-                  className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-secondary"
-                >
-                  Contact us
-                </a>
+                <div>
+
+                  <h4>
+                    <a
+                      href=""
+                      className="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-lg xl:text-xl"
+                    >
+                      Cloud Adoption and Migration
+                    </a>
+                  </h4>
+                  <p
+                    className="max-w-[370px] text-base text-body-color text-center"
+                  >
+                    This services enables you to start enjoying the benefits of the cloud with the right strategy. Our consultants dive into your on-premises workload
+                    to help adopt appropriate and modern replacements for your systems and applications
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div
-                className="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
-              >
-                <span
-                  className="mb-5 block text-xl font-medium text-dark dark:text-white"
-                >
-                  Premium
-                </span>
-                <h2
-                  className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]"
-                >
-                  <span className="text-xl font-medium">$</span>
-                  <span className="">99.00</span>
-                  <span
-                    className="text-base font-normal text-body-color ml-2"
-                  >
-                    Per Month
-                  </span>
-                </h2>
-                <div className="mb-[50px]">
-                  <h5 className="mb-5 text-lg font-medium text-dark">
-                    Features
-                  </h5>
-                  <div className="flex flex-col gap-[14px]">
-                    <p className="text-base text-body-color">
-                      Up to 10 Servers
-                    </p>
-                    <p className="text-base text-body-color">
-                      Daily Backup
-                    </p>
-                    <p className="text-base text-body-color">
-                      Lifetime access
-                    </p>
-                    <p className="text-base text-body-color">
-                      Free Support
-                    </p>
-                  </div>
+
+            {/* Item 3 */}
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
+              <div className="wow fadeInUp group pb-10 border shadow-md p-5 h-[520px]" data-wow-delay=".1s">
+                <div className="mb-8 overflow-hidden rounded-[5px]">
+                  <a href="#" className="block">
+                    <img
+                      src="./assets/images/blog/blog-03.jpg"
+                      alt="image"
+                      className="w-full transition group-hover:rotate-6 group-hover:scale-125"
+                    />
+                  </a>
                 </div>
-                <a
-                  href="#contact"
-                  className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-secondary"
-                >
-                  Contact us
-                </a>
+                <div>
+
+                  <h4>
+                    <a
+                      href=""
+                      className="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-lg xl:text-xl"
+                    >
+                      Infrastructure Automation and Management
+                    </a>
+                  </h4>
+                  <p
+                    className="max-w-[370px] text-base text-body-color text-center"
+                  >
+                    We can configure, monitor and optimize the components of your cloud infrastructure, setting up DevOps, DevSecOps, and infrastructure as Code
+                    practices to ensure optimal usage of cloud resources and a highly available application
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -2939,7 +2795,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section
+      {/* Our Creative Team */}
+      {/* <section
         id="team"
         className="overflow-hidden bg-gray-1 pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]"
       >
@@ -3889,9 +3746,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      {/* Blog Section */}
+      {/* <section className="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4">
@@ -4016,7 +3874,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="contact" className="relative py-20 md:py-[120px]">
         <div
@@ -4099,6 +3957,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+
+
             <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
               <div
                 className="wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial dark:bg-dark-2 dark:shadow-none sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]"
@@ -4110,68 +3971,9 @@ export default function Home() {
                 >
                   Send us a Message
                 </h3>
-                <form>
-                  <div className="mb-[22px]">
-                    <label
-                      htmlFor="fullName"
-                      className="mb-4 block text-sm text-body-color dark:text-dark-6"
-                    >Full Name*</label
-                    >
-                    <input
-                      type="text"
-                      name="fullName"
-                      placeholder="Adam Gelius"
-                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
-                    />
-                  </div>
-                  <div className="mb-[22px]">
-                    <label
-                      htmlFor="email"
-                      className="mb-4 block text-sm text-body-color dark:text-dark-6"
-                    >Email*</label
-                    >
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="example@yourmail.com"
-                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
-                    />
-                  </div>
-                  <div className="mb-[22px]">
-                    <label
-                      htmlFor="phone"
-                      className="mb-4 block text-sm text-body-color dark:text-dark-6"
-                    >Phone*</label
-                    >
-                    <input
-                      type="text"
-                      name="phone"
-                      placeholder="+885 1254 5211 552"
-                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
-                    />
-                  </div>
-                  <div className="mb-[30px]">
-                    <label
-                      htmlFor="message"
-                      className="mb-4 block text-sm text-body-color dark:text-dark-6"
-                    >Message*</label
-                    >
-                    <textarea
-                      name="message"
-                      rows={1}
-                      placeholder="type your message here"
-                      className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
-                    ></textarea>
-                  </div>
-                  <div className="mb-0">
-                    <button
-                      type="submit"
-                      className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-secondary"
-                    >
-                      Send
-                    </button>
-                  </div>
-                </form>
+
+
+                <ContactForm />
               </div>
             </div>
           </div>
@@ -4183,14 +3985,14 @@ export default function Home() {
           <div
             className="-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11"
           >
-            <a href="#">
+            {/* <a href="#">
               <img
                 src="./assets/images/brands/google.png"
                 alt="google"
                 className="h-12"
               />
 
-            </a>
+            </a> */}
             <a href="#">
               <img
                 src="./assets/images/brands/google-cloud.png"
@@ -4198,13 +4000,13 @@ export default function Home() {
                 className="h-12"
               />
             </a>
-            <a href="#">
+            {/* <a href="#">
               <img
                 src="./assets/images/brands/airbnb.png"
                 alt="airbnb"
                 className="h-12"
               />
-            </a>
+            </a> */}
             <a href="#">
               <img
                 src="./assets/images/brands/microsoft.png"
