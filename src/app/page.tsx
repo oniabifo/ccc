@@ -2303,7 +2303,7 @@ export default function Home() {
                   <h3
                     className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    How can we get started with Cloud Citadel Consulting?
+                    How to get started with Cloud Citadel Consulting?
                   </h3>
                   <p className="text-base text-body-color dark:text-dark-6">
                   To get started, simply reach out to us through our website or contact information.
