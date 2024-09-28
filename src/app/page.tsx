@@ -14,7 +14,7 @@ export default function Home() {
             <div className="w-60 max-w-full px-4">
               <a href="/" className="navbar-logo block w-full py-5 font-black text-2xl"
                 id="navbarLogo">
-                LOGO
+                CCC
                 {/* <img
                   src="assets/images/logo/logo-white.svg"
                   alt="logo"
@@ -56,7 +56,7 @@ export default function Home() {
                         href="#about"
                         className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                       >
-                        About
+                        About Us
                       </a>
                     </li>
                     <li className="group relative">
@@ -64,7 +64,7 @@ export default function Home() {
                         href="#consulting-services"
                         className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                       >
-                        Consulting Services
+                        Why Choose Us
                       </a>
                     </li>
                     {/* <li className="group relative">
@@ -123,7 +123,7 @@ export default function Home() {
                 <h1
                   className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
                 >
-                  Cybersecurity and Cloud Consulting Services
+                  IT Consulting and Cloud Services 
                 </h1>
                 <p
                   className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]"
@@ -1744,14 +1744,14 @@ export default function Home() {
                   <p
                     className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white"
                   >
-                    There are many variations of passages of Lorem Ipsum but the
-                    majority have suffered in some form.
+                   With countless options, we know finding the right solution is key. Whether you have a specific need or are exploring,
+                   we’re here to help. Contact us today for personalized assistance and let's achieve your goals together.
                   </p>
                   <a
                     href=""
                     className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                   >
-                    Contact An Expert
+                    Let Us Help
                   </a>
                 </div>
               </div>
@@ -1875,8 +1875,8 @@ export default function Home() {
                   <p
                     className="max-w-[370px] text-base text-body-color text-center"
                   >
-                    Our Cloud consulting services are centered around understanding your business cases, and helping you design the most fitting and modern infrastructure
-                    for your applications that run in our supported cloud platform
+                    Our cloud consulting services focus on understanding your unique business needs and helping you design a modern, 
+                    tailored infrastructure for your applications, optimized to run on our supported cloud platforms
                   </p>
                 </div>
               </div>
@@ -1908,8 +1908,8 @@ export default function Home() {
                   <p
                     className="max-w-[370px] text-base text-body-color text-center"
                   >
-                    This services enables you to start enjoying the benefits of the cloud with the right strategy. Our consultants dive into your on-premises workload
-                    to help adopt appropriate and modern replacements for your systems and applications
+                    This service ensures a smooth transition to the cloud with minimal disruption, aligning strategies to your business goals for optimal performance. 
+                    We handle every step, from planning to execution, for a seamless migration.
                   </p>
                 </div>
               </div>
@@ -1940,8 +1940,8 @@ export default function Home() {
                   <p
                     className="max-w-[370px] text-base text-body-color text-center"
                   >
-                    We can configure, monitor and optimize the components of your cloud infrastructure, setting up DevOps, DevSecOps, and infrastructure as Code
-                    practices to ensure optimal usage of cloud resources and a highly available application
+                    We can manage and optimize your cloud infrastructure by implementing DevOps, DevSecOps, and Infrastructure as Code strategies. 
+                    Our approach ensures efficient cloud resource usage, enhanced security, and high availability for your applications.
                   </p>
                 </div>
               </div>
@@ -1967,8 +1967,7 @@ export default function Home() {
                   What our Clients Say
                 </h2>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+
                 </p>
               </div>
             </div>
@@ -2005,8 +2004,11 @@ export default function Home() {
                     </div>
 
                     <p className="mb-6 text-base text-body-color dark:text-dark-6">
-                      “Our members are so impressed. It's intuitive. It's clean.
-                      It's distraction free. If you're building a community.’’
+                    "Thanks to Cloud Citadel Consulting, we transformed our cloud security posture management. 
+                    Their team conducted a thorough assessment and identified critical vulnerabilities we 
+                    weren't aware of. With their expert guidance, we implemented robust security measures tailored to our needs.
+                     Now, we have peace of mind knowing our cloud environment is secure and compliant, 
+                    allowing us to focus on our core business objectives. We couldn't have done it without their support!"
                     </p>
 
                     <a href="#" className="flex items-center gap-4">
@@ -2022,9 +2024,9 @@ export default function Home() {
                         <h3
                           className="text-sm font-semibold text-dark dark:text-white"
                         >
-                          Sabo Masties
+                          Alex Thompson
                         </h3>
-                        <p className="text-xs text-body-secondary">Founder @ Rolex</p>
+                        <p className="text-xs text-body-secondary">CTO @ InnovateTech</p>
                       </div>
                     </a>
                   </div>
@@ -2058,8 +2060,11 @@ export default function Home() {
                     </div>
 
                     <p className="mb-6 text-base text-body-color dark:text-dark-6">
-                      “Our members are so impressed. It's intuitive. It's clean.
-                      It's distraction free. If you're building a community.’’
+                    "Cloud Citadel Consulting completely revamped our cloud infrastructure, helping us address several 
+                    critical issues that were hindering our operations. Their team conducted an in-depth analysis and 
+                    provided tailored solutions that optimized our cloud resources and improved performance. 
+                    Thanks to their expertise, our infrastructure is now more scalable and 
+                    reliable, enabling us to focus on growth and innovation. We are incredibly grateful for their support!"
                     </p>
 
                     <a href="#" className="flex items-center gap-4">
@@ -2075,10 +2080,10 @@ export default function Home() {
                         <h3
                           className="text-sm font-semibold text-dark dark:text-white"
                         >
-                          Musharof Chowdhury
+                          Joshua Chowdhury
                         </h3>
                         <p className="text-xs text-body-secondary">
-                          Founder @ Ayro UI
+                          Founder @ TechForward
                         </p>
                       </div>
                     </a>
@@ -2113,8 +2118,11 @@ export default function Home() {
                     </div>
 
                     <p className="mb-6 text-base text-body-color dark:text-dark-6">
-                      “Our members are so impressed. It's intuitive. It's clean.
-                      It's distraction free. If you're building a community.’’
+                    "Working with Cloud Citadel Consulting for our security assessment was a game-changer. 
+                    Their thorough evaluation revealed vulnerabilities we hadn’t identified before and provided us
+                     with actionable insights to enhance our security posture. With their expert recommendations, 
+                     we implemented effective strategies that have significantly strengthened our defenses. 
+                     We now feel confident that our data is secure, allowing us to focus on delivering value to our clients."
                     </p>
 
                     <a href="#" className="flex items-center gap-4">
@@ -2130,10 +2138,10 @@ export default function Home() {
                         <h3
                           className="text-sm font-semibold text-dark dark:text-white"
                         >
-                          William Smith
+                          Michael Roberts
                         </h3>
                         <p className="text-xs text-body-secondary">
-                          Founder @ Trorex
+                          Founder @ SecureNet
                         </p>
                       </div>
                     </a>
@@ -2163,8 +2171,8 @@ export default function Home() {
                 <p
                   className="mx-auto max-w-[485px] text-base text-body-color dark:text-dark-6"
                 >
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                  There are many approaches to cloud infrastructure, but at Cloud Citadel Consulting, 
+                  we offer expert guidance to ensure your solutions are customized and optimized for success
                 </p>
               </div>
             </div>
@@ -2196,11 +2204,12 @@ export default function Home() {
                   <h3
                     className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    Is Our Company Certifed ?
+                    What services do you offer?
                   </h3>
                   <p className="text-base text-body-color dark:text-dark-6">
-                    Loremolor sit amet, Test elit, sed do eiusmodGoing homunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
+                  We offer a range of services, including cloud consulting, infrastructure management, security assessments, 
+                  cloud adoption and migration, and DevOps practices. Our goal is to optimize your cloud environment for
+                   performance and security.                  </p>
                 </div>
               </div>
               <div className="mb-12 flex lg:mb-[70px]">
@@ -2228,11 +2237,11 @@ export default function Home() {
                   <h3
                     className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    Is Our Service World class?
+                    What cloud platforms do you support?
                   </h3>
                   <p className="text-base text-body-color dark:text-dark-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
+                  We support a variety of cloud platforms, including AWS, Azure, and Google Cloud. 
+                  This flexibility enables us to help you leverage the best solutions for your organization.                  </p>
                 </div>
               </div>
             </div>
@@ -2262,11 +2271,11 @@ export default function Home() {
                   <h3
                     className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    Do We Offer Global Services ?
+                    What sets Cloud Citadel Consulting apart?
                   </h3>
                   <p className="text-base text-body-color dark:text-dark-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
+                  Our deep expertise and personalized approach differentiate us from others in the industry. 
+                  We focus on building long-term partnerships and delivering tailored solutions that drive real results.                  </p>
                 </div>
               </div>
               <div className="mb-12 flex lg:mb-[70px]">
@@ -2294,13 +2303,11 @@ export default function Home() {
                   <h3
                     className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    Do We Offer Custom Subscriptions ?
+                    How to get started with Cloud Citadel Consulting?
                   </h3>
                   <p className="text-base text-body-color dark:text-dark-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.     It takes 2-3 weeks to get your first blog post ready. That
-                    includes the in-depth research & creation of your monthly
-                    content ui/ux strategy that we do writing your first blog
-                    post.
+                  To get started, simply reach out to us through our website or contact information.
+                   We’ll schedule a consultation to discuss your needs and explore how we can help you achieve your goals.
                   </p>
                 </div>
               </div>
@@ -4019,7 +4026,7 @@ export default function Home() {
                         Our Location
                       </h5>
                       <p className="text-base text-body-color dark:text-dark-6">
-                        401 Broadway, 24th Floor, Orchard Cloud View, London
+                        Atlanta, GA 30309
                       </p>
                     </div>
                   </div>
@@ -4043,11 +4050,9 @@ export default function Home() {
                         How Can We Help?
                       </h5>
                       <p className="text-base text-body-color dark:text-dark-6">
-                        info@yourdomain.com
+                        info@cloudcitadelconsulting.com
                       </p>
-                      <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                        contact@yourdomain.com
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
