@@ -6,7 +6,6 @@ import Header from "./components/header";
 export default function Home() {
 
 
-
   return (
     <main>
       <Header />
@@ -1646,9 +1645,9 @@ export default function Home() {
                   <p
                     className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white"
                   >
-                    With countless options available, we understand the importance 
-                    of finding the right solution. Whether you have a specific need or are exploring 
-                    possibilities, we're here to help. Reach out today to get personalized 
+                    With countless options available, we understand the importance
+                    of finding the right solution. Whether you have a specific need or are exploring
+                    possibilities, we're here to help. Reach out today to get personalized
                     assistance from our team. Let’s work together to achieve your goals
                   </p>
                   <a
@@ -3985,14 +3984,14 @@ export default function Home() {
           <div
             className="-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11"
           >
-            {/* <a href="#">
+            <a href="#">
               <img
-                src="./assets/images/brands/google.png"
-                alt="google"
+                src="./assets/images/brands/aws.png"
+                alt="aws"
                 className="h-12"
               />
+            </a>
 
-            </a> */}
             <a href="#">
               <img
                 src="./assets/images/brands/google-cloud.png"
@@ -4278,6 +4277,7 @@ export default function Home() {
         </div>
 
         <div>
+
           <span className="absolute left-0 top-0 z-[-1]">
             <img src="assets/images/footer/shape-1.svg" alt="" />
           </span>

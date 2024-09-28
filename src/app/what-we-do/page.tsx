@@ -105,7 +105,7 @@ export default function WhatWeDo() {
 
                     {/* Cloud Security */}
 
-                    <section className="mb-16 bg-secondary/20 w-full flex justify-center py-20 px-5 md:px-0">
+                    <section className="mb-16 bg-primary w-full flex justify-center py-20 px-5 md:px-0">
                         <div className='max-w-6xl'>
                             <div className="flex flex-col md:flex-row items-center gap-4">
 
@@ -114,13 +114,11 @@ export default function WhatWeDo() {
                                 </div>
 
                                 <div className="md:w-1/2 mb-8 md:mb-0">
-                                    <h3 className="text-2xl font-bold text-primary mb-4">Cloud Security</h3>
-                                    <p className="text-gray-600">
+                                    <h3 className="text-2xl font-bold text-white mb-4">Cloud Security</h3>
+                                    <p className="text-white">
                                         In the dynamic digital landscape, our cloud security services ensure the protection of your cloud infrastructure, data, and applications. We conduct thorough security assessments, implement advanced solutions, and ensure regulatory compliance providing a secure foundation for your business's growth and innovation.
                                     </p>
                                 </div>
-
-
                             </div>
                         </div>
 
